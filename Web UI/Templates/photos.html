@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sih2020 BK224</title>
+	<style type="text/css">
+		.images{
+			width: 1300px;
+			height: auto;
+			border-radius: 20px;
+			background-color: #D7DAE9;
+		}
+		.images img{
+			width: 320px;
+			height: 180px;
+			margin: 20px;
+			border: solid 1px #D7DAE9;
+		}
+
+		.images img:hover{
+			transform: scale(2);
+			transition-delay: 0.1s;
+			/*position: relative;*/
+			z-index: 3;
+		}
+
+		.title h1{
+			color: #141e60;
+			font-family: "roboto", sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<div class="title">
+	<h1>PLOTS: </h1>
+</div>
+<div class="images">
+	<div class="row">
+	<img src="{{url_for('static', filename='Plot_1.png')}}">
+	<img src="{{url_for('static', filename='Plot_4.png')}}">
+	<img src="{{url_for('static', filename='Plot_5.png')}}">
+	</div>
+
+	<div class="row">
+	<img src="{{url_for('static', filename='Plot_6.png')}}">
+	<img src="{{url_for('static', filename='Plot_7.png')}}">
+	<img src="{{url_for('static', filename='Plot_8.png')}}">
+	</div>
+
+	<div class="row">
+	<img src="{{url_for('static', filename='Plot_9.png')}}">
+	<img src="{{url_for('static', filename='Plot_10.png')}}">
+	<img src="{{url_for('static', filename='Plot_11.png')}}">
+	</div>
+
+	<div class="row">
+	<img src="{{url_for('static', filename='Plot_12.png')}}">
+	<img src="{{url_for('static', filename='Plot_13.png')}}">
+	<img src="{{url_for('static', filename='Plot_14.png')}}">
+	</div>
+</div>
+</center>
+
+</body>

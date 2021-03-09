@@ -1,0 +1,114 @@
+.new-train{
+	position: absolute;
+	left: 600px;
+	top: 700px;
+	margin-bottom: 50px;
+}
+
+
+.data-block {
+	position: absolute;
+	left: 550px;
+	top: 50px;
+	width: 420px;
+	height: 600px;
+	border: 1px solid #CACBD1;
+	background-color: #CACBD1;
+	border-radius: 10px;
+	box-shadow: 10px 10px #9D9EA4;
+	align-content: center;
+
+}
+
+.data-block h1{
+	color: #141E60;
+	margin-left: 50px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+}
+
+.data-block h3{
+	color: #141E60;
+	margin-left: 70px;
+	font-family: "Roboto", sans-serif;
+}
+
+.data-block h4{
+	color: #141E60;
+	margin-left: 130px;
+	font-family: "Roboto", sans-serif;
+}
+
+.data-block text{
+	height: 20px;
+	width: 40%;
+	border-radius: solid 1px #9D9EA4;
+}
+
+.boxed-btn {
+  background: #fff;
+  color: #14435c !important;
+  display: inline-block;
+  padding: 18px 44px;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #14435c;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #14435c;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.boxed-btn:hover {
+  background: #14435c;
+  color: #fff !important;
+  border: 1px solid #14435c;
+}
+
+.central-info {
+	position: absolute;
+	left: 450px;
+	margin-top: 50px;
+	border: solid 1px #14435c;
+	border-radius: 10px;
+	padding-top: 40px;
+	width: 600px;
+	height: 280px;
+	align-content: center;
+	background-color: #
+}
+
+.central-info h3{
+	 font-family: "Robot", sans-serif;
+	 color: #141E60;
+}
+
+.btn-upload{
+	background: #fff;
+  color: #14435c !important;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #14435c;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #14435c;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-upload:hover {
+  background: #14435c;
+  color: #fff !important;
+  border: 1px solid #14435c;
+}
